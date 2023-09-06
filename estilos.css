@@ -1,0 +1,158 @@
+body{
+    margin : 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+
+}
+header nav {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex; 
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-right-section a{
+    text-decoration: none;
+    margin-right: 25px;
+    color: black;
+}
+nav .nav-right-section .menu-icon{
+    background-image: url('https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png');
+    width: 27px;
+    height: 27px;
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+nav .nav-right-section img{
+    border-radius: 80px;
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+}
+main {
+    margin-top: 30px;
+    text-align: center;
+}
+main .main-logo{
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+}
+main .main-logo img{
+    width: 400px;
+    height: 100px;
+}
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+
+
+}
+main .main-input-container{
+    width: 525px;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0px #20212447; */sombras de la caja */
+}
+main .main-input .search-icon{
+    background-image: url('https://img.icons8.com/android/24/000000/search.png'); 
+    height: 18px;
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+main .main-input .micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png'); 
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main .main-input .cam-icon{
+    background-image: url('data:image/png;base64,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');
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-buttons div{
+    display: inline-block;
+}
+main .main-buttons buttom{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 0;
+    font-size: 14px;
+    color: #6f6386;
+    border-radius: 6px;
+    padding: 0 15px;
+    margin-right: 12px;
+}
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 0.5px 1px 0 #000001;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 15px;
+    border-top:1px solid #e4e4e4;
+}
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-right: 0;
+}
+footer .footer-left{
+    justify-self: left;
+}
+footer .footer-right{
+    justify-self: right;
+}
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+    text-decoration: none;} 
