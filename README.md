@@ -1,10 +1,10 @@
 # Clonación de la interfaz de Google con HTML5 Y CSS3
 **ÍNDICE**
 
-1.[Intro](#)
-2.[Qué construí](#)
-3.[Objetivo del proyecto](#)
-4.[Link a Demo](#)
+1. [Intro](#)
+2. [Qué construí](#)
+3. [Objetivo del proyecto](#)
+4. [Link a Demo](#)
 *****
 ## 1. Intro
 HTML5 trabaja de la mano con CSS3 para crear paginas web que usamos todos los dias en el navegador, incluso este sitiol web en donde estas viendo este contenido esta construido cocn HTML5 y CSS3 en este proyecto con los conocimientos de <imagen src""/> y  <imagen src""/>realice la clonacion de la interface de GOOGLE
